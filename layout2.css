@@ -1,42 +1,44 @@
 body * {
     border: 3px solid black;
-    margin: 5px;
     text-align: center;
     font-size: 2rem;
-}
-
-nav{
-    height: 25px;
-    padding: 30px;
-    font-weight: bold;
-    color: green;
 }
 
 header{
     height: 25px;
     padding: 30px;
+    margin: 5px;
     font-weight: bold;
     color: green;
 }
 
-main{
-    height: 300px;
-    padding: 60px;
-    text-align: center;
+nav{
+    height: 25px;
+    padding: 30px;
+    margin: 5px;
     font-weight: bold;
     color: green;
+}
+
+aside{
+    display: inline-block;
+    width: 502px;
+    height: 22vh;
+    padding: 150px;
+    margin: 5px;
+    font-weight: bold;
+    color: green;
+}
+
+section{
+    border: none;
+    display: inline-block;
 }
 
 footer{
-    height: 25px;
+    height: 40px;
     padding: 30px;
+    margin: 5px;
     font-weight: bold;
     color: green;
-}
-
-a{
-    border: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-    color:peru;
 }

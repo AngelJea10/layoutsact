@@ -1,0 +1,56 @@
+body * {
+    border: 3px solid black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header{
+    height: 25px;
+    padding: 30px;
+    margin: 5px;
+    font-weight: bold;
+    color: green;
+}
+
+nav{
+    height: 25px;
+    padding: 30px;
+    margin: 5px;
+    font-weight: bold;
+    color: green;
+}
+
+main {
+    display: inline-block;
+    width: 510px;
+    height: 39.9vh;
+    margin: 5px;
+    padding: 160px;
+    font-weight: bold;
+    color: green;
+    vertical-align: top; /* Align top */
+}
+
+aside {
+    display: inline-block;
+    width: 60px;
+    height: 40vh;
+    margin: 5px;
+    padding: 160px;
+    font-weight: bold;
+    color: green;
+    vertical-align: top; /* Align top */
+}
+
+section{
+    border: none;
+    display: inline-block;
+}
+
+footer{
+    height: 40px;
+    padding: 30px;
+    margin: 5px;
+    font-weight: bold;
+    color: green;
+}
