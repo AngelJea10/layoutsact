@@ -1,5 +1,4 @@
-body * {
-    border: 2px solid black;
+header, nav, aside, footer{
     text-align: center;
     font-size: 1.5rem;
 }
@@ -9,6 +8,7 @@ header{
     padding: 100px;
     font-weight: bold;
     color: green;
+    border: 2px solid #000;
 }
 
 nav{
@@ -16,6 +16,9 @@ nav{
     padding: 30px;
     font-weight: bold;
     color: green;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 main {
@@ -27,9 +30,12 @@ main {
     padding: 0; 
     font-weight: bold;
     color: green;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    font-size: 1.5rem;
 }
 
-.picture {
+aside:first-child {
     width: 30px;
     height: 180px;
     padding: 130px;
@@ -41,9 +47,10 @@ main {
     position: absolute;
     font-weight: bold;
     color: green;
+    border: 2px solid #000;
 }
 
-.amb {
+aside:nth-child(2) {
     width: 165px;
     height: 140px;
     padding: 150px;
@@ -55,9 +62,10 @@ main {
     position: absolute;
     font-weight: bold;
     color: green;
+    border: 2px solid #000;
 }
 
-.rt {
+aside:nth-child(3) {
     width: 470px;
     height: 100px;
     padding: 150px;
@@ -69,13 +77,15 @@ main {
     position: absolute;
     font-weight: bold;
     color: green;
+    border: 2px solid #000;
 }
 
-.sec{
-    border-right: 2px solid black;
+.border {
+    border-right:2px solid #000;
 }
 
 footer{
+    border: 2px solid #000;
     height: 40px;
     padding: 30px;
     font-weight: bold;
