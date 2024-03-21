@@ -1,44 +1,37 @@
-body * {
-    border: 3px solid black;
-    text-align: center;
+body{
     font-size: 2rem;
 }
 
+header, nav, footer{
+    border: 2px solid black;
+    margin: 5px;
+    height: 15vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: green;
+}
+
 header{
-    height: 25px;
-    padding: 30px;
-    margin: 5px;
-    font-weight: bold;
-    color: green;
+    margin-bottom: 10px;
 }
 
-nav{
-    height: 25px;
-    padding: 30px;
-    margin: 5px;
-    font-weight: bold;
-    color: green;
+.content{
+    display: flex;
+    flex-direction: row;
 }
 
-aside{
-    display: inline-block;
-    width: 502px;
-    height: 22vh;
-    padding: 150px;
+.content div{
+    width: 100%;
+    height: 50vh;
     margin: 5px;
-    font-weight: bold;
-    color: green;
-}
-
-section{
-    border: none;
-    display: inline-block;
-}
-
-footer{
-    height: 40px;
-    padding: 30px;
-    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     color: green;
 }

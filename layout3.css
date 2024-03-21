@@ -1,56 +1,40 @@
-body * {
-    border: 3px solid black;
-    text-align: center;
+body{
     font-size: 2rem;
 }
 
+header, nav, footer{
+    border: 2px solid black;
+    margin: 5px;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: green;
+}
+
 header{
-    height: 25px;
-    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container div{
+    height: 50vh;
     margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
     font-weight: bold;
     color: green;
 }
 
-nav{
-    height: 25px;
-    padding: 30px;
-    margin: 5px;
-    font-weight: bold;
-    color: green;
-}
-
-main {
-    display: inline-block;
-    width: 510px;
-    height: 39.9vh;
-    margin: 5px;
-    padding: 160px;
-    font-weight: bold;
-    color: green;
-    vertical-align: top; /* Align top */
-}
-
-aside {
-    display: inline-block;
-    width: 60px;
-    height: 40vh;
-    margin: 5px;
-    padding: 160px;
-    font-weight: bold;
-    color: green;
-    vertical-align: top; /* Align top */
-}
-
-section{
-    border: none;
-    display: inline-block;
-}
-
-footer{
-    height: 40px;
-    padding: 30px;
-    margin: 5px;
-    font-weight: bold;
-    color: green;
+.container div:nth-child(2){
+    flex-grow: 2;
 }
